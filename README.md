@@ -4,7 +4,7 @@
 1. [Description](https://github.com/EChrist01/multiple-choice-quiz#descrption)
 2. [Installation](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#installation-instructions)
 3. [Usage](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#usage-information)
-4. [Demo]()
+4. [Demo](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#demo)
 5. [Questions]()
 
 ## Descrption.
