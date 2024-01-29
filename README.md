@@ -1,7 +1,7 @@
 # multiple-choice-quiz
 ## Table of Contents
 
-1. [Description]()
+1. [Description](https://github.com/EChrist01/multiple-choice-quiz#descrption)
 2. [Installation]()
 3. [Usage]()
 4. [Demo]()
