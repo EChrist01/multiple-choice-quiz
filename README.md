@@ -5,7 +5,7 @@
 2. [Installation](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#installation-instructions)
 3. [Usage](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#usage-information)
 4. [Demo](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#demo)
-5. [Questions]()
+5. [Questions](https://github.com/EChrist01/multiple-choice-quiz/blob/main/README.md#questions)
 
 ## Descrption.
 
