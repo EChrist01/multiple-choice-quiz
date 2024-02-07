@@ -12,7 +12,10 @@ A timed online quiz that lets you save a highscore.
 
 ![Screenshot 2024-01-29 132017](https://github.com/EChrist01/multiple-choice-quiz/assets/146894896/090f72be-c65b-48f5-bba6-53df2ad1361a)
 
+## Installation Instructions.
+This application uses HTML, CSS, and Javascript.
 
+## Usage Information.
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -24,12 +27,6 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
-
-## Installation Instructions.
-This application uses HTML, CSS, and Javascript.
-
-## Usage Information.
-Page link will open the website, 
 
 ## Demo.
 
