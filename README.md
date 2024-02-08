@@ -40,3 +40,9 @@ https://echrist01.github.io/multiple-choice-quiz/
 Github profile: https://github.com/EChrist01
 Email: Ethanchrist02@gmail.com
 
+## assisted by:
+calendly tutor,
+stackoverflow,
+W3 schools.
+
+
