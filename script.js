@@ -41,7 +41,7 @@ let questions = [
   },
 ];
 
-var loadQuestions = questions
+var loadQuestions = loadQuestion;
 var questionsEl = document.querySelector("#questions");
 var timerEl = document.querySelector("#timer");
 var choicesEl = document.querySelector("#options");
@@ -78,15 +78,33 @@ function clearCurrentQuestion() {
   }
 }
 
+function loadQuestion() {
+  let currentQuestion = questions[currentQuestionIndex];
+  let questionPrompt = document.querySelector(".question-words");
+  questionPrompt.textContent = currentQuestion.prompt;
+
+  choicesEl.innerHTML = ""; // Clear previous options
+
+  currentQuestion.options.forEach((option) => {
+    let optionButton = document.createElement("button");
+    optionButton.textContent = option;
+    optionButton.classList.add("option");
+    optionButton.onclick = function () {
+      handleOptionClick(option);
+    };
+    choicesEl.appendChild(optionButton);
+  });
+}
+
   function quizStart() {
     timerId = setInterval(clockTick, 1000);
     timerEl.textContent = time;
     let landingScreenEl = document.getElementById("start-screen");
     landingScreenEl.classList.add("hide");
     questionsEl.classList.remove("hidden");
-    loadQuestions()
+    loadQuestions();
   }
-  
+
   function quizEnd() {
     clearInterval(timerId);
     let endScreenEl = document.getElementById("quiz-end");
