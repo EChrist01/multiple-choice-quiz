@@ -1,3 +1,4 @@
+// Array of objects containing quiz questions, options, and correct answers 
 let questions = [
   {
     prompt: `Commonly used data types do NOT include:`,
@@ -121,7 +122,7 @@ function loadQuestion() {
         quizEnd(); 
     } 
 } 
-
+// Function to save high score
 function saveHighscore() { 
     let name = nameEl.value.trim(); 
     if (name !== "") { 
@@ -145,7 +146,7 @@ function saveHighscore() {
         ); 
     } 
 } 
-  
+// check for Enter key press and save high score
 function checkForEnter(event) { 
     if (event.key === "Enter") { 
         saveHighscore(); 
@@ -154,6 +155,8 @@ function checkForEnter(event) {
         ); 
     } 
 } 
+
+// Attach event listeners
 nameEl.onkeyup = checkForEnter;  
   
 submitBtn.onclick = saveHighscore;  

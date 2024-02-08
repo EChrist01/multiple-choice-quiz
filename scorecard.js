@@ -1,7 +1,7 @@
 let scoresBtn = document.querySelector( 
     "#view-high-scores"
 ); 
-
+// Function to print high scores
 function printHighscores() { 
     let highscores = 
         JSON.parse( 
@@ -12,6 +12,8 @@ function printHighscores() {
     highscores.sort(function (a, b) { 
         return b.score - a.score; 
     }); 
+
+    // Iterate through high scores and display them
     highscores.forEach(function ( 
         score 
     ) { 
@@ -37,6 +39,7 @@ function clearHighscores() {
     ); 
     window.location.reload(); 
 } 
+// Attach event listener to the clear button to trigger the clearHighscores function
 document.getElementById( 
     "clear"
 ).onclick = clearHighscores; 
