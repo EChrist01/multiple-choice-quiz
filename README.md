@@ -28,6 +28,11 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
+In development:
+fix question load on page,
+adding initals at end of test,
+fix score card and question display,
+
 ## Demo.
 https://echrist01.github.io/multiple-choice-quiz/
 
