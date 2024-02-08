@@ -31,6 +31,6 @@ THEN I can save my initials and score
 ## Demo.
 
 ## Questions
-Github profile: 
+Github profile: https://github.com/EChrist01
 Email: Ethanchrist02@gmail.com
 
